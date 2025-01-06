@@ -1,8 +1,9 @@
 {
   "name": "repl-switcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for managing and switching between multiple REPL servers seamlessly",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
@@ -30,6 +31,7 @@
     "typescript": "^5.7.2"
   },
   "files": [
-    "dist/index.js"
+    "dist/index.js",
+    "dist/index.d.ts"
   ]
 }
