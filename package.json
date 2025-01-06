@@ -1,0 +1,35 @@
+{
+  "name": "repl-switcher",
+  "version": "1.0.0",
+  "description": "A library for managing and switching between multiple REPL servers seamlessly",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavel-voronin/repl-switcher.git"
+  },
+  "keywords": [
+    "REPL",
+    "switcher",
+    "manager",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Pavel Voronin <pavel.a.voronin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavel-voronin/repl-switcher/issues"
+  },
+  "homepage": "https://github.com/pavel-voronin/repl-switcher#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist/index.js"
+  ]
+}
